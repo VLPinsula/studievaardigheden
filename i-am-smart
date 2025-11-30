@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studievaardigheden App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Studievaardigheden Oefen-App</h1>
+
+    <div id="app">
+        <textarea id="input" placeholder="Schrijf hier je vraag, opdracht of starttekst..."></textarea>
+        <button onclick="sendMessage()">Versturen</button>
+
+        <div id="output"></div>
+
+        <button onclick="clearProgress()" id="clearBtn">Voortgang wissen</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
